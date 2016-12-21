@@ -3,8 +3,8 @@
 + SequenceFile
   - [SequenceFileDemo.java](https://github.com/kunSong/Hadoop/blob/master/SequenceFileDemo.java)
 + Avro
-  - [AvroMapReduce.java]()
-  - [AvroDataMemorySerialize.java]()
-  - [AvroDataFile.java]()
+  - [AvroMapReduce.java](https://github.com/kunSong/Hadoop/blob/master/AvroMapReduce.java)
+  - [AvroDataMemorySerialize.java](https://github.com/kunSong/Hadoop/blob/master/AvroDataMemorySerialize.java)
+  - [AvroDataFile.java](https://github.com/kunSong/Hadoop/blob/master/AvroDataFile.java)
 + Comparator
-  - [RawComparable.java]()
+  - [RawComparable.java](https://github.com/kunSong/Hadoop/blob/master/RawComparable.java)
