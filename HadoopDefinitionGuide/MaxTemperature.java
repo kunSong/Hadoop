@@ -11,9 +11,6 @@ import org.apache.hadoop.mapreduce.lib.partition.HashPartitioner;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-/**
- * Created by sWX469012 on 2017/9/11.
- */
 public class MyAppDriver extends Configured implements Tool {
 
     public static void main(String[] args) throws Exception {
