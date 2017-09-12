@@ -1,0 +1,20 @@
+<project name="MaxTempertureDemo" basedir="." default="compile">
+    <target name="prepare">
+        <delete dir="${basedir}/build/classes" />
+        <mkdir dir="${basedir}/build/classes" />
+    </target>
+
+    <path id="path1">
+        <fileset dir="D:\lib">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+
+    <target name="compile" depends="prepare" >
+        <javac srcdir="${basedir}/src" destdir="${basedir}/build/classes" classpathref="path1" includeantruntime="true"/>
+    </target>
+
+    <target name="package" depends="compile" >
+        <jar destfile="${basedir}/My.jar" basedir="${basedir}/build/classes" />
+    </target>
+</project>
